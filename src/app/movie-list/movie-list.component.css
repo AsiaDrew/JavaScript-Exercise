@@ -1,0 +1,14 @@
+.ScrollMenu{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    /*justify-content: space-evenly; */
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+h1{
+   text-align: center;
+}

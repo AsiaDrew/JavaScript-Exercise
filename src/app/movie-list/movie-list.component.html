@@ -1,0 +1,13 @@
+<!-- <h1>People</h1>
+
+<div *ngFor="let p of people">
+  <a routerLink="/people/{{ p.id }}">{{ p.name }} </a>
+</div> -->
+<div class="ScrollMenu">
+  <div *ngFor="let m of movies">
+    <a routerLink="/MovieDetails/{{ m.id }}">
+      <h2>{{ m.name }}</h2>
+      <img src="{{ m.image }}" height="200px" />
+    </a>
+  </div>
+</div>
